@@ -26,6 +26,15 @@ Thumbs.db
 *.rar
 *.7z
 
+# Archive (可能包含敏感信息)
+_archive/
+
 # Private files
 *.pem
 *.key
+
+# Environment files (可能包含API Key)
+.env
+.env.*
+secrets/
+credentials/
