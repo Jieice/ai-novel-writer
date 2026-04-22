@@ -38,3 +38,6 @@ _archive/
 .env.*
 secrets/
 credentials/
+
+# Novel content (本地保留，不上传)
+山村小神医/正文卷/
