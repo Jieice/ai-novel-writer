@@ -1,0 +1,12 @@
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.innerdocbody.adit-container ul.r-list-done li{color:var(--text-caption)}.main_announce{z-index:88}.main_announce a{color:var(--primary-content-default);font-weight:700}.main_announce .ud__notice__close{flex-shrink:0}

@@ -1,0 +1,4 @@
+/* Translation data for theme 79 (zh_CN)*/
+const localeData = window._discourse_locale_data ??= {};
+localeData.theme ??= {};
+localeData.theme[79] = {"zh_CN":{"rendering_error":"\u003cb\u003e错误\u003c/b\u003e\u003cp\u003e请确保您的 Mermaid 代码正在 \u003ca href='https://mermaid.live/'\u003emermaid.live\u003c/a\u003e 上运行并缩进 4 个空格，例如：\u003cpre\u003e\u003ccode\u003e    flowchart TB\n    A --\u003e B\u003c/code\u003e\u003c/pre\u003e\u003c/p\u003e","insert_mermaid_sample":"Mermaid 图表"},"en":{"rendering_error":"\u003cb\u003eError\u003c/b\u003e\u003cp\u003ePlease ensure your mermaid code is running on \u003ca href='https://mermaid.live/'\u003emermaid.live\u003c/a\u003e and indented with 4 spaces, eg: \u003cpre\u003e\u003ccode\u003e    flowchart TB\n    A --\u003e B\u003c/code\u003e\u003c/pre\u003e\u003c/p\u003e","insert_mermaid_sample":"Mermaid chart"}};

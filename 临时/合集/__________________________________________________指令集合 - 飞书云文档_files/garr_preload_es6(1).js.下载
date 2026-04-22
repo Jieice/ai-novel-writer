@@ -1,0 +1,47 @@
+(function (moduleName) {
+    window.garrPreloadConfig = window.garrPreloadConfig || {};
+    window.garrPreloadConfig[moduleName] = {};
+    window.garrPreloadConfig[moduleName].jsList = ["/eesz/bear/smartable/module/ee/docs/bitable/1.0.9.3/index_merged_es6.js","/eesz/bear/smartable/module/vb_bitable-view-tab-bar.base.5943479300.chunk.js.LICENSE.txt","/eesz/bear/smartable/module/vb_bitable-view-tab-bar.base_es6.6896d11018.chunk.js","/eesz/bear/smartable/module/vb_bitable-view-tab-bar.base_es6.6896d11018.chunk.js.LICENSE.txt","/eesz/bear/smartable/module/vb_dashboard-block-table-view-component-wrapper.base_es6.8d49c24e9e.chunk.js","/eesz/bear/smartable/module/vb_dashboard-button-component-wrapper.base_es6.a36ea8f10b.chunk.js","/eesz/bear/smartable/module/vb_dashboard-helper-v2.base_es6.e0114a7fc4.chunk.js","/eesz/bear/smartable/module/vb_dashboard-helper.base_es6.2374de08b6.chunk.js","/eesz/bear/smartable/module/vb_dashboard-slicer-edit-panel.base_es6.96f985c6b4.chunk.js","/eesz/bear/smartable/module/vb_dashboard-toolbar.base_es6.cc4fb64555.chunk.js","/eesz/bear/smartable/module/vb_dashboard_extension_component.base_es6.9ebe2691d3.chunk.js","/eesz/bear/smartable/module/vb_dashboard_extension_component_v2.base_es6.ab23771f93.chunk.js","/eesz/bear/smartable/module/vb_dashboard_extension_config_panel.base_es6.094410d247.chunk.js","/eesz/bear/smartable/module/vb_dashboard_extension_config_panel_v2.base_es6.95367da53c.chunk.js","/eesz/bear/smartable/module/vb_dashboard_extension_config_panel_without_base.base_es6.b7e14ed914.chunk.js","/eesz/bear/smartable/module/vb_dashboard_extension_edit_panel.base_es6.188e4912c6.chunk.js","/eesz/bear/smartable/module/vb_dashboard_extension_edit_panel_v2.base_es6.795bcf09b9.chunk.js","/eesz/bear/smartable/module/vb_dashboard_v1.base.b67ade1657.js.LICENSE.txt","/eesz/bear/smartable/module/vb_dashboard_v1.base_es6.4b7f2c8064.js","/eesz/bear/smartable/module/vb_dashboard_v1.base_es6.4b7f2c8064.js.LICENSE.txt","/eesz/bear/smartable/module/vb_dashboard_v2.base.0b120b912a.js.LICENSE.txt","/eesz/bear/smartable/module/vb_dashboard_v2.base.fec909bfc0.js.LICENSE.txt","/eesz/bear/smartable/module/vb_dashboard_v2.base_es6.08cc50f58e.js","/eesz/bear/smartable/module/vb_dashboard_v2.base_es6.08cc50f58e.js.LICENSE.txt","/eesz/bear/smartable/module/vb_dashboard_v2.base_es6.b62ac6f77d.js","/eesz/bear/smartable/module/vb_dashboard_v2.base_es6.b62ac6f77d.js.LICENSE.txt","/eesz/bear/smartable/module/vb_docx-table-view.base_es6.012dcea3ad.chunk.js","/eesz/bear/smartable/module/vb_formula-editor-adaptor.base_es6.153e744247.chunk.js","/eesz/bear/smartable/module/vb_formula_exports_utils.base_es6.07efdbad21.chunk.js","/eesz/bear/smartable/module/vb_formula_popover_store.base_es6.0ffdbf6ef6.chunk.js","/eesz/bear/smartable/module/vb_vb_EmbeddedBitable_DocManager.base_es6.755133a0e3.chunk.js","/eesz/bear/smartable/module/vb_vb_dashboard_rich_text_block_view.base.b4a5a75006.chunk.js.LICENSE.txt","/eesz/bear/smartable/module/vb_vb_dashboard_rich_text_block_view.base_es6.2bde7d94ca.chunk.js","/eesz/bear/smartable/module/vb_vb_dashboard_rich_text_block_view.base_es6.2bde7d94ca.chunk.js.LICENSE.txt","/eesz/bear/smartable/module/vb_vb_dashboard_v1_service.base_es6.f064227c5a.chunk.js","/eesz/bear/smartable/module/vb_vb_dashboard_v2_service.base_es6.688840df95.chunk.js","/eesz/bear/smartable/module/vb_vb_formula_exports.base_es6.22e3c2ce1e.chunk.js"];
+    window.garrPreloadConfig[moduleName].cssList = ["/eesz/bear/smartable/module/ee/docs/bitable/1.0.9.3/bitable_ssr.css","/eesz/bear/smartable/module/ee/docs/bitable/1.0.9.3/index_record.css","/eesz/bear/smartable/module/css/vb_dashboard_v1.27812c0381.css","/eesz/bear/smartable/module/css/vb_dashboard_v2.cc293fdf91.css"];
+
+    // 只有当localStorage中不存在VB对应的预加载资源列表时，才会下载执行garrPreload.js
+    function preloadDashboardResource(waitForChunk3) {
+        // 部分场景chunk1无法判断block类型，等待chunk3再次判断
+        if (!window.baseFirstBlockInfo || window.baseFirstBlockInfo.type !== 'dashboard') {
+            if (!waitForChunk3) return;
+
+            document.addEventListener('readystatechange', function() {
+                if (document.readyState === 'interactive') {
+                    preloadDashboardResource(false);
+                }
+            });
+            return;
+        }
+
+        // 预加载仪表盘资源
+        const cdnHost = navigator.cdn_host;
+        const resourceList = [...window.garrPreloadConfig[moduleName].jsList, ...window.garrPreloadConfig[moduleName].cssList]
+            .filter(file => file.includes('dashboard'))
+            .map(url => `${cdnHost}${url}`);
+
+        const script = document.getElementById('garrPreloadScript');
+        if (resourceList && Array.isArray(resourceList)) {
+            console.log('==== preload dashboard resource =====');
+            const frag = document.createDocumentFragment();
+            for (let url of resourceList) {
+                const link = document.createElement('link');
+                link.href = url;
+                link.rel = 'preload';
+                link.as = url.endsWith('.css') ? 'style' : 'script';
+                link.onerror = function(event) {
+                    staticCDNErrorHandler && staticCDNErrorHandler(src, 'link', event);
+                }
+                frag.appendChild(link);
+            }
+            resourceList.length && script.parentElement.insertBefore(frag, script);
+        }
+    }
+    
+    preloadDashboardResource(true);
+
+})('bitable')

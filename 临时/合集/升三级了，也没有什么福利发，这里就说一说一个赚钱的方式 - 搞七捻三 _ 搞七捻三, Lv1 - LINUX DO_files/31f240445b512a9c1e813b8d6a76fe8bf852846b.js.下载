@@ -1,0 +1,4 @@
+/* Translation data for theme 46 (en)*/
+const localeData = window._discourse_locale_data ??= {};
+localeData.theme ??= {};
+localeData.theme[46] = {"en":{"insert_scrollable_content":"Insert scrollable content"},"zh_CN":{"insert_scrollable_content":"插入滚动内容"}};

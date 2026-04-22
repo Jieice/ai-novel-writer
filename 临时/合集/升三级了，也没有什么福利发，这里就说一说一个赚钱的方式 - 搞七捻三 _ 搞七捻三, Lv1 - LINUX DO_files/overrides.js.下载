@@ -1,0 +1,2 @@
+const localeData = window._discourse_locale_data ??= {};
+localeData.overrides = {"zh_CN":{"js.discourse_policy.builder.private.description":"将策略状态对非管理员保密","js.user.invite_code.instructions":"注册帐户需要邀请码（https://linux.do/t/topic/545650）","js.welcome_banner.header.anonymous_members":"Where possible begins","js.welcome_banner.header.logged_in_members":"Where possible begins","js.welcome_banner.header.new_members":"Where possible begins"}};

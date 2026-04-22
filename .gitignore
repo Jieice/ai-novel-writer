@@ -1,0 +1,31 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI Agent
+.agents/
+.claude/
+.openclaw-state/
+.trae/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large files
+*.zip
+*.rar
+*.7z
+
+# Private files
+*.pem
+*.key

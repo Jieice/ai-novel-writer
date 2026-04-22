@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Process ID files
+*.pid
+backend.pid
+frontend.pid
+
+# Log files
+backend.log
+frontend.log
+backend/backend.log
+frontend/frontend.log
+
+# PyInstaller
+*.spec.bak
+package/static/
+package/dist/
+package/build/
+*.manifest
+*.pem
+
+参考项目/
+.ace-tool/

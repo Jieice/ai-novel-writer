@@ -1,0 +1,12 @@
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.innerdocbody.adit-container ul.r-list-done li{color:var(--text-caption)}.not-compatible__announce{border-radius:0;position:relative;text-align:center;z-index:89}.not-compatible__announce .content .text{vertical-align:middle}.not-compatible__announce .content .text .close{cursor:pointer;display:inline-block;margin-left:8px;vertical-align:middle}.not-compatible__announce .link{font-size:14px;text-decoration:none}.not-compatible__announce .link a{color:var(--text-link-normal);cursor:pointer}.not-compatible__announce .link a:hover{color:var(--text-link-hover);text-decoration:underline}.not-compatible__announce .link a:active{color:var(--text-link-pressed)}.suite-mindnote .not-compatible__announce{position:relative;z-index:100}

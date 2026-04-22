@@ -1,0 +1,4 @@
+/* Translation data for theme 80 (zh_CN)*/
+const localeData = window._discourse_locale_data ??= {};
+localeData.theme ??= {};
+localeData.theme[80] = {"zh_CN":{"portfolio":"作品集","empty_portfolio":"此作品集正等待填写","empty_portfolio_link":"首先，将话题添加至"},"en":{"portfolio":"Portfolio","empty_portfolio":"This portfolio is waiting to be filled","empty_portfolio_link":"Get started by adding topics to"}};

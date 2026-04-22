@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "sessions": {
+    "6c106553752f4bd28115b0ba80f95039": [
+      {
+        "expertId": "WorkflowOptimizationExpert",
+        "name": "流畅畅",
+        "profession": "工作流优化专家",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/08-QualityAssurance/WorkflowOptimizationExpert/WorkflowOptimizationExpert.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/08-QualityAssurance/WorkflowOptimizationExpert/WorkflowOptimizationExpert_zh.md",
+        "usedAt": 1776820546857,
+        "industryId": "08-QualityAssurance"
+      }
+    ],
+    "0eab8d9d5d914096b23fd2c209ddaee8": [
+      {
+        "expertId": "SeniorProjectManager",
+        "name": "关德豪",
+        "profession": "高级项目经理",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/07-ProjectManagement/SeniorProjectManager/SeniorProjectManager.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/07-ProjectManagement/SeniorProjectManager/SeniorProjectManager_zh.md",
+        "usedAt": 1776828749016,
+        "industryId": "07-ProjectManagement"
+      },
+      {
+        "expertId": "ContentCreator",
+        "name": "文爆爆",
+        "profession": "内容创作专家",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/03-Marketing/ContentCreator/ContentCreator.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/03-Marketing/ContentCreator/ContentCreator_zh.md",
+        "usedAt": 1776825317503,
+        "industryId": "all"
+      },
+      {
+        "expertId": "RealityChecker",
+        "name": "验真真",
+        "profession": "现实检查员",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/08-QualityAssurance/RealityChecker/RealityChecker.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/08-QualityAssurance/RealityChecker/RealityChecker_zh.md",
+        "usedAt": 1776824559162,
+        "industryId": "all"
+      }
+    ]
+  },
+  "lastUpdated": 1776837595007
+}

@@ -1,0 +1,4 @@
+/* Translation data for theme 116 (en)*/
+const localeData = window._discourse_locale_data ??= {};
+localeData.theme ??= {};
+localeData.theme[116] = {"en":{}};

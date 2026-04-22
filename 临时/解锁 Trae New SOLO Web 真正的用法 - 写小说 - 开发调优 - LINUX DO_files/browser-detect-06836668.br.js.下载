@@ -1,0 +1,4 @@
+(function(){function o(o,r){return r||console.warn(o+" is not supported"),"relativeColor"===o||"subgrid"===o||r}if(o("weakMap",window.WeakMap)&&o("promise",window.Promise)&&o("globalThis","undefined"!=typeof globalThis)&&o("replaceAll",String.prototype.replaceAll)&&o("supports",CSS.supports)&&o("aspectRatio",CSS.supports("aspect-ratio: 1"))&&o("relativeColor",CSS.supports("(color: hsl(from white h s l))"))&&o("subgrid",CSS.supports("(grid-template-rows: subgrid)"))){try{(new WeakMap).has(0)}catch(s){window.unsupportedBrowser=!0}var r=window.navigator.userAgent.match(/Firefox\/([0-9]+)\./),e=r?parseInt(r[1],10):null
+e&&e<89&&(window.unsupportedBrowser=!0)}else window.unsupportedBrowser=!0})()
+
+//# sourceMappingURL=browser-detect-123cf8d7.map

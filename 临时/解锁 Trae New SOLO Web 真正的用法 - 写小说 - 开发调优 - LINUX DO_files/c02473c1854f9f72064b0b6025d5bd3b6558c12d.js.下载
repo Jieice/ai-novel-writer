@@ -1,0 +1,4 @@
+/* Translation data for theme 44 (en)*/
+const localeData = window._discourse_locale_data ??= {};
+localeData.theme ??= {};
+localeData.theme[44] = {"en":{"short_link_label":"Short link"},"zh_CN":{"short_link_label":"短链"}};

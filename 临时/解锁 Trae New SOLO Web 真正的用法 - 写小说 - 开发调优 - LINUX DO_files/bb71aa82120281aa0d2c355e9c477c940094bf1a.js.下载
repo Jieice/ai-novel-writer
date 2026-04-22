@@ -1,0 +1,4 @@
+/* Translation data for theme 118 (en)*/
+const localeData = window._discourse_locale_data ??= {};
+localeData.theme ??= {};
+localeData.theme[118] = {"en":{"interface_title":"Customize your interface"},"zh_TW":{"interface_title":"自訂義介面"},"zh_CN":{"interface_title":"自定义界面"}};

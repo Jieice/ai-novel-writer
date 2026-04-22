@@ -1,0 +1,50 @@
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.feature-guide{display:inline-block;margin-top:1px;position:relative}.feature-guide:after{background-color:var(--ccmtoken-doc-highlightcolor-red-solid);border-radius:50%;content:" ";display:inline-block;font-size:0;height:5px;position:absolute;right:-5px;top:0;width:5px}.feature-guide.offset-20:after{right:30px;top:10px}.feature-guide.feature-guide-right-corner:after{right:-2px;top:-2px}
+
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.new-notice-wrappeer{position:relative}.new-notice-wrappeer .new-notice-icon-default{z-index:1}.new-notice-wrappeer .new-notice-icon-default.is-hide{display:none}.new-notice-wrappeer .new-notice-icon-default svg path{fill:currentColor!important}.new-notice-wrappeer .new-notice-icon-unread{display:none}.new-notice-wrappeer .new-notice-icon-unread.is-show{display:block;z-index:2}.whats-new-content li{list-style-position:inside}.whats-new-content a{border-bottom:solid var(--N00-BD) 1px;color:var(--N00-FG);transition:.3s ease}.whats-new-content a:link{text-decoration:unset!important}.whats-new-content a:hover{border-bottom-color:var(--B100-BD)!important;color:var(--B100-FG)!important}.whats-new-content br{content:"";display:block;margin-top:8px}
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.portal{position:absolute;z-index:100}.portal.layout-body-center{left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}.portal-mask{background-color:rgba(var(--text-title-raw),.6);bottom:0;height:100%;left:0;position:fixed;right:0;top:0;z-index:100}
+
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.innerdocbody.adit-container ul.r-list-done li{color:var(--text-caption)}.cp-tooltip{display:block;font-size:12px;line-height:1.5;position:absolute;z-index:1000}.cp-tooltip-hidden{display:none}.cp-tooltip-placement-top,.cp-tooltip-placement-topLeft,.cp-tooltip-placement-topRight{padding-bottom:8px}.cp-tooltip-placement-right,.cp-tooltip-placement-rightBottom,.cp-tooltip-placement-rightTop{padding-left:8px}.cp-tooltip-placement-bottom,.cp-tooltip-placement-bottomLeft,.cp-tooltip-placement-bottomRight{padding-top:8px}.cp-tooltip-placement-left,.cp-tooltip-placement-leftBottom,.cp-tooltip-placement-leftTop{padding-right:8px}.cp-tooltip-inner{background-color:var(--bg-tips);border-radius:4px;color:var(--N00-FG);padding:8px 12px}.cp-tooltip-arrow{border-color:transparent;border-style:solid;height:0;position:absolute;width:0}.cp-tooltip-placement-top .cp-tooltip-arrow,.cp-tooltip-placement-topLeft .cp-tooltip-arrow,.cp-tooltip-placement-topRight .cp-tooltip-arrow{border-top-color:var(--bg-tips);border-width:5px 5px 0;bottom:3px}.cp-tooltip-placement-top .cp-tooltip-arrow{left:50%;margin-left:-5px}.cp-tooltip-placement-topLeft .cp-tooltip-arrow{left:8px}.cp-tooltip-placement-topRight .cp-tooltip-arrow{right:8px}.cp-tooltip-placement-right .cp-tooltip-arrow,.cp-tooltip-placement-rightBottom .cp-tooltip-arrow,.cp-tooltip-placement-rightTop .cp-tooltip-arrow{border-right-color:var(--bg-tips);border-width:5px 5px 5px 0;left:3px}.cp-tooltip-placement-right .cp-tooltip-arrow{margin-top:-5px;top:50%}.cp-tooltip-placement-rightTop .cp-tooltip-arrow{top:8px}.cp-tooltip-placement-rightBottom .cp-tooltip-arrow{bottom:8px}.cp-tooltip-placement-left .cp-tooltip-arrow,.cp-tooltip-placement-leftBottom .cp-tooltip-arrow,.cp-tooltip-placement-leftTop .cp-tooltip-arrow{border-left-color:var(--bg-tips);border-width:5px 0 5px 5px;right:3px}.cp-tooltip-placement-left .cp-tooltip-arrow{margin-top:-5px;top:50%}.cp-tooltip-placement-leftTop .cp-tooltip-arrow{top:8px}.cp-tooltip-placement-leftBottom .cp-tooltip-arrow{bottom:8px}.cp-tooltip-placement-bottom .cp-tooltip-arrow,.cp-tooltip-placement-bottomLeft .cp-tooltip-arrow,.cp-tooltip-placement-bottomRight .cp-tooltip-arrow{border-bottom-color:var(--bg-tips);border-width:0 5px 5px;top:3px}.cp-tooltip-placement-bottom .cp-tooltip-arrow{left:50%;margin-left:-5px}.cp-tooltip-placement-bottomLeft .cp-tooltip-arrow{left:8px}.cp-tooltip-placement-bottomRight .cp-tooltip-arrow{right:8px}.group-btns{bottom:38px;display:block;margin-right:22px;position:fixed;z-index:60}.group-btns.sheet-btn-group{bottom:76px}.group-btns.bitable-btn-group-with-extension-market{bottom:0;margin-bottom:52px;margin-right:75px}.group-btns__item{display:flex;flex-direction:column}.group-btns .gpf-biz-help-center__internal-btns.bounceOutDown,.group-btns .gpf-biz-help-center__internal-btns.opacity-hide{left:-9999px;position:absolute;top:-9999px}.tool-tips.ud__popover{width:420px;z-index:50}.tool-tips .ud__popover-content{padding:20px 24px}.tool-tips .btn-groups-popover-title{font-family:SF Pro Text}.tool-tips .btn-groups-popover-title .tool-tips-icon{color:var(--primary-content-default);height:16px;margin-right:8px;width:16px}.tool-tips .btn-groups-popover-content{font-family:PingFang SC}.tool-tips .btn-groups-popover-content .tool-tips-btn-box{display:flex;font-size:12px;justify-content:flex-end;margin-top:16px;text-align:right}.tool-tips .btn-groups-popover-content .tool-tips-btn-box .confirm-button{margin-left:12px}.tool-tips .ud__popover__overlay-content{margin-left:24px}.help-group-btn{align-items:center;border:1px solid var(--line-border-card);border-radius:50%;color:var(--icon-n1);display:flex;font-size:16px;height:36px;justify-content:center;width:36px}.bitable-ai-discuss-wrap{background-color:var(--N00,80%);border:1px solid var(--line-border-card);border-radius:16px;box-shadow:0 0 24px 0 var(--shadow-default-md);height:520px;overflow:hidden;position:fixed;width:366px;z-index:200}.bitable-ai-discuss-header-drag{border-top-left-radius:16px;height:46px;left:0;position:absolute;top:0;width:320px;z-index:10}.bitable-ai-discuss-body{cursor:default}#bitable-ai-discuss-content,.bitable-ai-discuss-body{height:520px;left:0;position:absolute;top:0;width:366px}#bitable-ai-discuss-content{border-radius:16px;overflow:hidden}#bitable-ai-discuss-content iframe{height:100%!important;width:100%!important}

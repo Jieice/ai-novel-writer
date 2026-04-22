@@ -1,0 +1,6 @@
+(function (moduleName) {
+  window.garrPreloadConfig = window.garrPreloadConfig || {};
+  window.garrPreloadConfig[moduleName] = {};
+  window.garrPreloadConfig[moduleName].jsList = ["/eesz/bear/sheet/module/ee/bear_web/sheet/1.1.3.1681/sheet_entry_resource_inject.js","/eesz/bear/sheet/module/sheet_io.687474c0.js","/eesz/bear/sheet/module/editor_kit_micro.b5482063.js","/eesz/bear/sheet/module/sheet_plugin.093f5802.js","/eesz/bear/sheet/module/sheet_core.56089ba0.js","/eesz/bear/sheet/module/sheet_index.bb40febc.chunk.js","/eesz/bear/sheet/module/vsh_6308.3e3b8c75.chunk.js","/eesz/bear/sheet/module/vsh_4739.f5d5f99b.chunk.js","/eesz/bear/sheet/module/vsh_6742.aeec54e9.chunk.js","/eesz/bear/sheet/module/vsh_9689.32e18717.chunk.js","/eesz/bear/sheet/module/vsh_1375.32ae66b1.chunk.js","/eesz/bear/sheet/module/vsh_4330.52568692.chunk.js","/eesz/bear/sheet/module/vsh_5621.e17fb268.chunk.js","/eesz/bear/sheet/module/vsh_3927.c66211b4.chunk.js","/eesz/bear/sheet/module/ee/bear_web/sheet/1.1.3.1681/index_merged.js"];
+  window.garrPreloadConfig[moduleName].cssList = ["/eesz/bear/sheet/module/ee/bear_web/sheet/1.1.3.1681/index_merged.css"];
+})('sheet')

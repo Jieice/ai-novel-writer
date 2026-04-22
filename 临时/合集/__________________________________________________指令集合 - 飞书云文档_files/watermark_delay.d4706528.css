@@ -1,0 +1,25 @@
+.disable-img-context-menu-by-watermark [data-wm-business=yes],.disable-img-context-menu-by-watermark img:not([data-wm=no]){user-select:none;-webkit-touch-callout:none}
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.innerdocbody-FyBgHW.adit-container-hFGI6B ul.r-list-done-gBGIyg li{color:var(--text-caption)}.watermark-LMBc3t{bottom:0;box-sizing:content-box;left:0;margin:auto;overflow:hidden;pointer-events:none;position:absolute;right:0;top:0;z-index:9999}.watermark-LMBc3t div{display:block;height:100%;width:100%}.pdf-watermark-eu5ws7{box-sizing:content-box;height:200%;left:0;overflow:hidden;pointer-events:none;position:absolute;position:fixed;top:0;transform:scale(.5);transform-origin:0 0;width:200%;z-index:9999}.pdf-watermark-eu5ws7 div{display:block;height:100%;width:100%}
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.innerdocbody.adit-container ul.r-list-done li{color:var(--text-caption)}.print-watermark{display:none!important}body{--main-container-top:64px}.header-watermark-host,.top-watermark-host{left:0;overflow:hidden;pointer-events:none;position:absolute;top:0;width:100%;z-index:15999}.top-watermark-host{height:calc(var(--main-container-top) - 64px)}.header-watermark-host{height:64px;top:calc(var(--main-container-top) - 64px)}

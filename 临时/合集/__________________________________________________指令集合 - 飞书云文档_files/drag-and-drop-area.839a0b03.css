@@ -1,0 +1,12 @@
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.innerdocbody.adit-container ul.r-list-done li{color:var(--text-caption)}@keyframes drag-and-drop-cloud{0%{transform:translateY(0)}50%{transform:translateY(-5px)}to{transform:translateY(0)}}.drag-and-drop-area{align-items:center;background:rgba(var(--N00-raw),.7);display:flex;height:100vh;justify-content:center;left:0;position:fixed;top:0;width:100vw;z-index:1001}.drag-and-drop-area .drag-and-drop-area__modal{align-items:center;background:var(--function-info-fill-solid-01);border:solid 1px var(--primary-content-default);border-radius:6px;display:flex;flex-direction:column;min-height:106px;width:202px}.drag-and-drop-area .drag-and-drop-area__modal.drag-and-drop-area__modal--no-permission{justify-content:center}.drag-and-drop-area .drag-and-drop-area__icon{animation:drag-and-drop-cloud .7s infinite;height:30px;margin:24px 0 12px;width:40px}.drag-and-drop-area .drag-and-drop-area__text{color:var(--primary-content-default);font-size:14px;max-width:100%;padding:4px;text-align:center;word-break:break-word}

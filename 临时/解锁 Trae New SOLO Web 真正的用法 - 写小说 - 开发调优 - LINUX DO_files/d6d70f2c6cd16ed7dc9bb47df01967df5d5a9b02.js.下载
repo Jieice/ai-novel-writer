@@ -1,0 +1,4 @@
+/* Translation data for theme 43 (zh_CN)*/
+const localeData = window._discourse_locale_data ??= {};
+localeData.theme ??= {};
+localeData.theme[43] = {"zh_CN":{"table_of_contents":"目录","insert_table_of_contents":"插入目录","jump_bottom":"跳至结尾","toggle_toc":{"show_timeline":"时间线","show_toc":"目录"}},"en":{"table_of_contents":"table of contents","insert_table_of_contents":"Insert table of contents","jump_bottom":"Jump to end","toggle_toc":{"show_timeline":"Timeline","show_toc":"Contents"}}};

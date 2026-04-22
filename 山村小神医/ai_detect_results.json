@@ -1,0 +1,17 @@
+{
+  "chapters": [
+    {
+      "chapter": 1,
+      "ai_rate": 100.0,
+      "platform": "朱雀",
+      "date": "2026-04-22"
+    },
+    {
+      "chapter": 12,
+      "ai_rate": 58.0,
+      "platform": "朱雀",
+      "date": "2026-04-22"
+    }
+  ],
+  "last_updated": "2026-04-22 12:01"
+}

@@ -1,0 +1,8 @@
+
+(function (moduleName) {
+  window.garrPreloadConfig = window.garrPreloadConfig || {};
+  window.garrPreloadConfig[moduleName] = {};
+  window.garrPreloadConfig[moduleName].jsList = ["/eesz/bear/docx/module/ee/docs/docx/1.0.17.2122/index_merged_es6.js"];
+  window.garrPreloadConfig[moduleName].cssList = ["/eesz/bear/docx/module/ee/docs/docx/1.0.17.2122/index_merged.css"];
+  window.garrPreloadConfig[moduleName].editableResourceList = ["/eesz/bear/docx/module/page_editable_required_resource_es6.b1dd9463.chunk.js"];
+})('docx')

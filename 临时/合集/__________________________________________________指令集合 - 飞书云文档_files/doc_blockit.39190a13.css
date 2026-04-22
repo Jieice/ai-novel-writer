@@ -1,0 +1,38 @@
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.popover-fade-enter{opacity:0}.popover-fade-enter-active{opacity:1;transition:opacity .3s ease-in-out}.popover-fade-exit{opacity:1}.popover-fade-exit-active{opacity:0;transition:opacity .3s ease-in-out}.popover{background-color:var(--bg-body);border-radius:8px;box-shadow:0 3px 12px 2px var(--shadow-default-sm)}
+
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.setting-container{border-bottom-left-radius:6px;border-bottom-right-radius:6px;overflow:hidden;position:relative;transition:all .3s ease-in-out}.setting-container .loading{align-items:center;background:var(--bg-float);bottom:0;display:flex;justify-content:center;left:0;position:absolute;right:0;top:0;transition:all .3s ease-in-out;z-index:1}.setting-container .setting-body{height:auto}
+
+/*! *****************************************************************************
+                              这里是与设计对其的标准色盘
+注意：所有的颜色须从色盘中提取，不得擅自添加颜色。若设计师给出的UI稿中带有色盘中不存在的颜色，
+请与王坤联系并确认。
+***************************************************************************** */
+/*! **************************************
+        Naming Rule:
+          modules(BEM) + rule name
+
+        Example:
+          @main-container-bg
+*****************************************/.innerdocbody.adit-container ul.r-list-done li{color:var(--text-caption)}.common-flex-vertical-center{align-items:center;display:flex;justify-content:center}.common-animation-enter{animation-duration:.1s;animation-fill-mode:forwards;animation-name:bottom-right-enter;animation-timing-function:ease}.common-animation-leave{animation-duration:.1s;animation-fill-mode:forwards;animation-name:bottom-right-leave;animation-timing-function:ease-in}@keyframes bottom-right-enter{0%{opacity:0;transform:translate3d(20%,-20%,0) scale(.6)}to{opacity:1;transform:translateZ(0) scale(1)}}@keyframes bottom-right-leave{0%{opacity:1;transform:translateZ(0) scale(1)}to{opacity:0;transform:translate3d(20%,-20%,0) scale(.6)}}.blockit-picker-modal{z-index:3999}.blockit-picker-modal .ud__dialog__content.ud__dialog__content-md{height:480px;width:600px!important}.blockit-picker-modal .ud__modal__titleContent{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.blockit-picker-modal .ud__modal__body{border:none;overflow:visible}.blockit-picker-modal .modal_hidden{display:flex;flex-direction:column;height:100%}.blockit-picker-modal .ud__modal__des{flex-shrink:0;margin:-8px 0 8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.blockit-picker-modal .larkw-picker{flex-grow:1}
